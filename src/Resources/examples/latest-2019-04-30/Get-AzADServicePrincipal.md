@@ -1,18 +1,6 @@
-### Example 1: {{ Add title here }}
+
+### Example 5: Gets service principal information from the directory.
 ```powershell
-PS C:\> {{ Add code here }}
+PS C:\> Get-AzADServicePrincipal -ApplicationId {ApplicationId}
 
-{{ Add output here }}
-```
-
-{{ Add description here }}
-
-### Example 2: {{ Add title here }}
-```powershell
-PS C:\> {{ Add code here }}
-
-{{ Add output here }}
-```
-
-{{ Add description here }}
 

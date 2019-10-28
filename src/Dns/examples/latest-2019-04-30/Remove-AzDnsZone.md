@@ -1,18 +1,6 @@
-### Example 1: {{ Add title here }}
+
+### Example 6: Deletes a DNS zone.
 ```powershell
-PS C:\> {{ Add code here }}
+PS C:\> Remove-AzDnsZone -Confirm  -Name {Name} -ResourceGroupName MyResourceGroup
 
-{{ Add output here }}
-```
-
-{{ Add description here }}
-
-### Example 2: {{ Add title here }}
-```powershell
-PS C:\> {{ Add code here }}
-
-{{ Add output here }}
-```
-
-{{ Add description here }}
 

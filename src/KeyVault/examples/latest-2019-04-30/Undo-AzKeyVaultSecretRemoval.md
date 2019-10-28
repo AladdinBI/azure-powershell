@@ -1,18 +1,6 @@
-### Example 1: {{ Add title here }}
+
+### Example 31: Recovers the deleted secret in the specified vault.
 ```powershell
-PS C:\> {{ Add code here }}
+PS C:\> Undo-AzKeyVaultSecretRemoval -Name {Name} -VaultName {VaultName}
 
-{{ Add output here }}
-```
-
-{{ Add description here }}
-
-### Example 2: {{ Add title here }}
-```powershell
-PS C:\> {{ Add code here }}
-
-{{ Add output here }}
-```
-
-{{ Add description here }}
 

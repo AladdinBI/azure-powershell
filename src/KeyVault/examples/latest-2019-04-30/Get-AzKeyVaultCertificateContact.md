@@ -1,18 +1,6 @@
-### Example 1: {{ Add title here }}
+
+### Example 7: The GetCertificateContacts operation returns the set of certificate contact resources in the specified key vault.
 ```powershell
-PS C:\> {{ Add code here }}
+PS C:\> Get-AzKeyVaultCertificateContact -VaultName {VaultName}
 
-{{ Add output here }}
-```
-
-{{ Add description here }}
-
-### Example 2: {{ Add title here }}
-```powershell
-PS C:\> {{ Add code here }}
-
-{{ Add output here }}
-```
-
-{{ Add description here }}
 

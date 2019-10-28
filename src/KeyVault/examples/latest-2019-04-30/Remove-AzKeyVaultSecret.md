@@ -1,18 +1,6 @@
-### Example 1: {{ Add title here }}
+
+### Example 21: The DELETE operation applies to any secret stored in Azure Key Vault.
 ```powershell
-PS C:\> {{ Add code here }}
+PS C:\> Remove-AzKeyVaultSecret -Confirm  -Force {Force} -Name {Name} -VaultName {VaultName}
 
-{{ Add output here }}
-```
-
-{{ Add description here }}
-
-### Example 2: {{ Add title here }}
-```powershell
-PS C:\> {{ Add code here }}
-
-{{ Add output here }}
-```
-
-{{ Add description here }}
 

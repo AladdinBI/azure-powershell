@@ -1,18 +1,6 @@
-### Example 1: {{ Add title here }}
+
+### Example 33: In order to perform this operation, the key must already exist in the Key Vault.
 ```powershell
-PS C:\> {{ Add code here }}
+PS C:\> Update-AzKeyVaultKey -Name {Name} -VaultName {VaultName}
 
-{{ Add output here }}
-```
-
-{{ Add description here }}
-
-### Example 2: {{ Add title here }}
-```powershell
-PS C:\> {{ Add code here }}
-
-{{ Add output here }}
-```
-
-{{ Add description here }}
 

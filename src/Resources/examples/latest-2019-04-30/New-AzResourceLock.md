@@ -1,18 +1,6 @@
-### Example 1: {{ Add title here }}
+
+### Example 34: When you apply a lock at a parent scope, all child resources inherit the same lock.
 ```powershell
-PS C:\> {{ Add code here }}
+PS C:\> New-AzResourceLock -Force {Force} -LockLevel {LockLevel} -LockName {LockName} -LockNotes {LockNotes} -ResourceGroupName MyResourceGroup
 
-{{ Add output here }}
-```
-
-{{ Add description here }}
-
-### Example 2: {{ Add title here }}
-```powershell
-PS C:\> {{ Add code here }}
-
-{{ Add output here }}
-```
-
-{{ Add description here }}
 

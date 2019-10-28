@@ -1,18 +1,6 @@
-### Example 1: {{ Add title here }}
+
+### Example 10: Creates a new storage account with the specified parameters.
 ```powershell
-PS C:\> {{ Add code here }}
+PS C:\> New-AzStorageAccount -Location {Location} -Name {Name} -ResourceGroupName {ResourceGroupName} -SkuName {SkuName}
 
-{{ Add output here }}
-```
-
-{{ Add description here }}
-
-### Example 2: {{ Add title here }}
-```powershell
-PS C:\> {{ Add code here }}
-
-{{ Add output here }}
-```
-
-{{ Add description here }}
 

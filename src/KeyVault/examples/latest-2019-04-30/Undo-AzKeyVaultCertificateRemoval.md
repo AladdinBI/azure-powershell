@@ -1,18 +1,6 @@
-### Example 1: {{ Add title here }}
+
+### Example 28: The RecoverDeletedCertificate operation performs the reversal of the Delete operation.
 ```powershell
-PS C:\> {{ Add code here }}
+PS C:\> Undo-AzKeyVaultCertificateRemoval -Name {Name} -VaultName {VaultName}
 
-{{ Add output here }}
-```
-
-{{ Add description here }}
-
-### Example 2: {{ Add title here }}
-```powershell
-PS C:\> {{ Add code here }}
-
-{{ Add output here }}
-```
-
-{{ Add description here }}
 
