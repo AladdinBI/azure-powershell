@@ -1,18 +1,18 @@
-### Example 1: {{ Add title here }}
+
+### Example 1: Sets the certificate contacts for the specified key vault.
 ```powershell
-PS C:\> {{ Add code here }}
+PS C:\> Add-AzKeyVaultCertificateContact -EmailAddress {EmailAddress} -VaultName {VaultName}
 
-{{ Add output here }}
-```
 
-{{ Add description here }}
 
-### Example 2: {{ Add title here }}
+### Example 1: Requests that a backup of the specified certificate be downloaded to the client.
 ```powershell
-PS C:\> {{ Add code here }}
+PS C:\> Backup-AzKeyVaultCertificate -Name {Name} -OutputFile {OutputFile} -VaultName {VaultName}
 
-{{ Add output here }}
-```
 
-{{ Add description here }}
+
+### Example 1: The Key Backup operation exports a key from Azure Key Vault in a protected form.
+```powershell
+PS C:\> Backup-AzKeyVaultKey -DefaultProfile {DefaultProfile} -Force {Force} -Name {Name} -OutputFile {OutputFile} -VaultName {VaultName}
+
 
