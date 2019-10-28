@@ -5,19 +5,19 @@ PS C:\> Add-AzKeyVaultCertificateContact -EmailAddress {EmailAddress} -VaultName
 
 
 
-### Example 1: Requests that a backup of the specified certificate be downloaded to the client.
+### Example 2: Requests that a backup of the specified certificate be downloaded to the client.
 ```powershell
 PS C:\> Backup-AzKeyVaultCertificate -Name {Name} -OutputFile {OutputFile} -VaultName {VaultName}
 
 
 
-### Example 1: The Key Backup operation exports a key from Azure Key Vault in a protected form.
+### Example 3: The Key Backup operation exports a key from Azure Key Vault in a protected form.
 ```powershell
 PS C:\> Backup-AzKeyVaultKey -DefaultProfile {DefaultProfile} -Force {Force} -Name {Name} -OutputFile {OutputFile} -VaultName {VaultName}
 
 
 
-### Example 1: Requests that a backup of the specified secret be downloaded to the client.
+### Example 4: Requests that a backup of the specified secret be downloaded to the client.
 ```powershell
 PS C:\> Backup-AzKeyVaultSecret -DefaultProfile {DefaultProfile} -Force {Force} -Name {Name} -OutputFile {OutputFile} -VaultName {VaultName}
 

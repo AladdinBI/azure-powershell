@@ -5,7 +5,7 @@ PS C:\> Get-AzDnsRecordSet -RecordType {RecordType} -ResourceGroupName MyResourc
 
 
 
-### Example 1: Gets a DNS zone.
+### Example 2: Gets a DNS zone.
 ```powershell
 PS C:\> Get-AzDnsZone -Name {Name} -ResourceGroupName MyResourceGroup
 
